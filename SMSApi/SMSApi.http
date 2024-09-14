@@ -1,0 +1,10 @@
+@SMSApi_HostAddress = https://localhost:7049
+
+POST {{SMSApi_HostAddress}}/api/Sms/Send?selectionLogic=Random
+Content-Type: application/json
+Accept: application/json
+
+{
+  "phone": "+995557125487",
+  "Text": "Hello, this isss a test message"
+}
